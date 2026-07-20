@@ -1,4 +1,4 @@
-function romanNumeral(num) {
+function convertToRoman(num) {
   if (num === 0) return '';
 
   const symbols = [
@@ -28,3 +28,5 @@ function romanNumeral(num) {
 
   return result;
 }
+
+module.exports = convertToRoman;
